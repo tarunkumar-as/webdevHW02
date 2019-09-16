@@ -1,0 +1,28 @@
+/*
+ * Refered w3schools.com/css/css_tables.asp
+ */
+table {
+    border: 1px solid black;
+    width: 400px;
+    border-spacing: 7px;
+    user-select: none;
+    margin-right: auto;
+    margin-left: auto;
+}
+th {
+    border: 1px solid black;
+    padding: 15px;
+    text-align: right;
+    user-select: none;
+}
+td {
+    border: 1px solid black;
+    padding: 15px;
+    text-align: center;
+    width: 25%;
+    box-shadow: 3px 3px 5px grey;
+    user-select: none;
+}
+div.Header {
+    text-align: center;
+}
